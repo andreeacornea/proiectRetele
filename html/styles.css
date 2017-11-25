@@ -1,0 +1,231 @@
+.body1 {
+    background-color: #B2A195;
+    text-align: center;
+    border-color: #241C5C;
+    border-style: solid;
+    border-width: 2px;
+  
+   
+} /*body pagina principala*/
+
+.body3 {
+    background-color: #B2A195;
+    text-align: center;
+    border-color: #241C5C;
+    border-style: solid;
+    border-width: 2px;
+    
+} /*body pagina ListaCamere*/
+
+.inceputInterfata {
+    background-color: #E3CDBE;
+    width: 99.8%;
+    height: 160px;
+    border-color: #241C5C;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.inceputLista {
+    background-color: #E3CDBE;
+    width: 99.8%;
+    height: 160px;
+    border-color: #241C5C;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.inceputJoc {
+    background-color: #E3CDBE;
+    width: 99.8%;
+    height: 160px;
+    border-color: #241C5C;
+    border-style: solid;
+    border-width: 2px;
+}
+      
+.headerInterfata{
+    color:#241C5C;
+    text-align: center;
+}
+
+#imagine1
+ {
+     margin-bottom: 10px;
+ }
+ 
+
+ #imagine
+ {
+     alignment-baseline: central;
+     height: 200px;
+     width:600px;
+     
+     
+ }
+ #space
+ {
+     alignment-baseline: central;
+     height: 70px;
+     width:100%;
+     
+ }
+ 
+ #space1
+ {
+     alignment-baseline: central;
+     height: 50px;
+     width:100%;
+     
+ }
+
+#sectiune{
+    height: 300px;
+     width:100%;
+}
+.left {
+    text-align: center;
+    width: 46%;
+    float: left;
+    font-weight: bold;
+     border-color:#241C5C;
+    border-style: solid;
+    border-width: 2px;
+    height: 280px;
+    background-color: #E3CDBE;
+    
+    
+}
+.right {
+   text-align: center;
+    width: 50%;
+    float: right;
+    color:#241C5C;
+    font-weight: bold;
+    height: 280px;
+    border-color:#241C5C;
+    border-style: solid;
+    border-width: 2px;
+    background-color: #E3CDBE;
+}
+
+.labelAutentificare
+{
+    color:#241C5C;
+     margin-top: 10px;
+}
+
+.paragrafAutentificare
+{
+    color:#241C5C;
+     margin-top: 70px;
+}
+
+.input {
+    margin-left: 22px;
+     margin-top: 10px;
+}
+
+.buton
+{
+    color:#241C5C;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.footer
+{
+    width: 99.8%;
+    font-weight: bold;
+    text-align: center;
+    border-style:solid;
+    border-width: 2px;
+    border-color: #241C5C;
+    background-color: #E3CDBE;
+    height: 40px;
+}
+
+.reguli
+{
+    text-align: left;
+    margin-left: 5px;
+}
+
+#space1
+ {
+     height: 70px;
+     width:100%;
+     
+ }
+ 
+ #tabelIstoric
+ {
+     margin-top: 20px;
+     
+    
+ }
+ 
+ #coloana
+ {
+    border-style:solid;
+    border-width: 2px;
+    border-color: #241C5C;
+ }
+ 
+ #coloanaNrIntrodus
+ {
+    border-style:solid;
+    border-width: 2px;
+    border-color: #241C5C;
+ }
+ 
+ #coloanaNrCentrate
+ {
+    border-style:solid;
+    border-width: 2px;
+    border-color: #241C5C;
+ }
+ 
+ #coloanaNrNecentrate
+ {
+    border-style:solid;
+    border-width: 2px;
+    border-color: #241C5C;
+ }
+ 
+ #menu
+ {
+     list-style: none;
+     margin: 0;
+    padding: 0;
+    
+    border-style:solid;
+    border-width: 1px;
+    border-color: #241C5C;
+    background-color: #E3CDBE;
+    
+ }
+ 
+ li {
+     
+     display: inline;
+     margin-right: 40px;
+     margin-left: 40px;
+    
+ }
+ 
+ #butonOff
+ {
+     margin-top: 100px;
+     color:#241C5C;
+    font-weight: bold;
+ }
+ 
+ .sectiuneAutentificare {
+    background-color: #E3CDBE;
+    width: 99.8%;
+    height: 220px;
+    border-color: #241C5C;
+    border-style: solid;
+    border-width: 2px;
+}

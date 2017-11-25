@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!--https://image.flaticon.com/sprites/new_packs/227915-math-symbols.png-->
+<html>
+    <head>
+         <meta charset="UTF-8"> 
+        <title>Pagina jocului
+        </title>
+         <link rel="stylesheet" href="styles.css">
+         <link rel="shortcut icon" href="/html/mathl.png" />
+         <script>
+        function mesajVerificare()
+        {
+            alert("mesaj daca a ghicit sau nu numarul");
+        }
+        </script>
+    </head>
+    
+     <header >
+            <section class="inceputJoc">
+            <img id="imagine1" src="/html/imag3.png">
+             </section>
+    </header>
+    
+    <nav>
+    <div class="nav-wrapper">
+      <ul id="menu" class=" center hide-on-med-and-down">
+       <li><tab id="tabDeconectare"><a href="interfata.html">Deconectare</a></tab></li>
+        <li><tab id="tabLista"><a href="paginaListaCamere.html">Lista de jocuri active</a></tab></li>
+        <li><tab id="tabPagJoc"><a href="paginaJoc.html">Pagina jocului</a></tab></li>
+      </ul>
+    </div>
+  </nav>
+        
+    <body class="body3">
+        
+    <section id="space">
+        </section>
+        <section id="sectiune">
+ 
+                <div class="left">
+                     <p class="paragrafAutentificare"><label class="labelAutentificare" id="labelIntroduceNr"><strong>Introduceți noul număr:</strong>
+                     </label>
+                         <input type="text" maxLength="4" />
+                         </p>
+                         <p>
+                    <p> <button class="buton" onclick="mesajVerificare()" id="butonVerificareNr">Verificare
+                     </button></p>
+                    
+                </div>
+            <div  class="right" style="overflow-x:auto;">Istoricul jocului
+            <table id="tabelIstoric" align="center">
+              <tr>
+    <th id="coloanaNrIntrodus">Număr introdus</th>
+    <th id="coloanaNrCentrate">Număr centrate</th> 
+    <th id="coloanaNrNecentrate">Număr necentrate</th>
+          </tr>
+        </table>
+  </div>
+      </section>  
+      
+       <section id="space1">
+        </section>
+        
+    
+    </body>
+      <footer class="footer">
+          <div>
+              <div>
+               Aplicația a fost dezvoltată de George Manuel Covrig și Andreea Alina Cornea, grupa 1068.
+          </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2017 Academia de Studii Economice din București. Facultatea de Cibernetică, Statistică și Informatică Economică.
+            </div>
+          </div>
+        </footer>
+  
+</html>

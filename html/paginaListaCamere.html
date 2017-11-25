@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<!--https://image.flaticon.com/sprites/new_packs/227915-math-symbols.png-->
+<html>
+    <head>
+         <meta charset="UTF-8"> 
+        <title>Lista de jocuri active
+        </title>
+         <link rel="stylesheet" href="styles.css">
+         <link rel="shortcut icon" href="/html/mathl.png" />
+         <script>
+        function listaUtilizatori()
+        {
+            alert("aici vom avea lista de utilizatori pentru fiecare camera");
+        }
+        </script>
+    </head>
+    
+     <header >
+            <section class="inceputLista">
+            <img id="imagine1" src="/html/imag2.png">
+             </section>
+    </header>
+    
+    <nav>
+    <div class="nav-wrapper">
+      <ul id="menu" class=" center hide-on-med-and-down">
+        <li><tab id="tabDeconectare"><a href="interfata.html">Deconectare</a></tab></li>
+        <li><tab id="tabLista"><a href="paginaListaCamere.html">Lista de jocuri active</a></tab></li>
+        <li><tab id="tabPagJoc"><a href="paginaJoc.html">Pagina jocului</a></tab></li>
+      </ul>
+    </div>
+  </nav>
+        
+    <body class="body3">
+        
+    <section id="space">
+        </section>
+        <section id="sectiune">
+ 
+                <div class="left">
+                     <p class="paragrafAutentificare"><label class="labelAutentificare" id="labelCamera1"><strong>Camera de joc numărul 1:</strong>
+                     </label>
+                        <button class="buton" onclick="listaUtilizatori()" id="ListaUtilizatoriCam1">Lista utilizatori conectați
+                     </button>
+                     <button class="buton" id="accesJocCam1"><a href="paginaJoc.html">Intrați
+                    </a> </button>
+                         </p>
+                         <p class="paragrafAutentificare"><label class="labelAutentificare" id="labelCamera2"><strong>Camera de joc numărul 2:</strong>
+                     </label>
+                        <button class="buton" onclick="listaUtilizatori()" id="ListaUtilizatoriCam2" >Lista utilizatori conectați
+                     </button>
+                     <button class="buton" id="accesJocCam2" ><a href="paginaJoc.html">Intrați
+                    </a> </button>
+                         </p>
+                         
+                    
+                </div>
+            <div  class="right">Regulile jocului
+            <p class="reguli">1. Se generează un număr aleator de 4 cifre.</p>
+<p class="reguli">2. Prin încercări repetate se identifică numărul generat la pasul 1.</p>
+<p class="reguli">3. Pentru fiecare încercare se va returna numărul de cifre care sunt centrate, respectiv necentrate.</p>
+<p class="reguli">4. Dacă în numărul introdus o cifră se află în aceeași poziție ca în numărul generat, atunci aceasta este centrată.</p>
+<p class="reguli">5. O cifră din numărul introdus este necentrată dacă aceasta este conținută în numărul generat, însă pe o altă poziție.</p>
+            </div>
+      </section>  
+      
+       <section id="space1">
+        </section>
+        
+    
+    </body>
+      <footer class="footer">
+          <div>
+              <div>
+               Aplicația a fost dezvoltată de George Manuel Covrig și Andreea Alina Cornea, grupa 1068.
+          </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2017 Academia de Studii Economice din București. Facultatea de Cibernetică, Statistică și Informatică Economică.
+            </div>
+          </div>
+        </footer>
+    
+       
+        
+  
+</html>
